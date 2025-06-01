@@ -34,9 +34,9 @@ on:
         required: true
         default: 'boot'
         type: choice
-        options:'boot'
-        
-          #recovery
+         options:
+         -boot
+        #recovery
         #vendorboot
       LDCHECK:
         description: 'Path of blobs to check' 
